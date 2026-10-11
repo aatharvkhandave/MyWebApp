@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Application</title>
+    <style>
+        * { box-sizing: border-box; font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; padding: 0; }
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 2rem;
+        }
+        p {
+            color: #666;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        .badge {
+            display: inline-block;
+            background: #667eea;
+            color: #fff;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin: 5px 4px;
+        }
+        .tech-stack {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        .footer {
+            margin-top: 25px;
+            font-size: 0.85rem;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Hello from Git, Jenkins &amp; Tomcat!</h1>
+        <p>This is a web application deployed through a <strong>CI/CD pipeline</strong>.</p>
+        <p>The code is managed using <strong>Git &amp; GitHub</strong>, built using
+           <strong>Jenkins</strong>, and deployed on <strong>Apache Tomcat</strong>.</p>
+
+        <div class="tech-stack">
+            <h3 style="color:#444; margin-bottom:10px;">Technology Stack</h3>
+            <span class="badge">Git</span>
+            <span class="badge">GitHub</span>
+            <span class="badge">Jenkins</span>
+            <span class="badge">Apache Tomcat</span>
+            <span class="badge">HTML5</span>
+            <span class="badge">CSS3</span>
+        </div>
+
+        <div class="footer">
+            <p>WAD Experiment 12 | Symbiosis Institute of Technology, Pune</p>
+        </div>
+    </div>
+</body>
+</html>
